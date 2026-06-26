@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biografi</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="biografi.css">
+</head>
+<body>
+  <div class="page-shell d-flex">
+    <aside class="sidebar bg-dark text-white d-flex flex-column">
+      <div class="sidebar-brand px-4 py-4">
+        <h3 class="mb-1">Bagus Rizky Sulistyantono</h3>
+        <p class="small text-secondary mb-0">Mahasiswa Teknik Informatika</p>
+      </div>
+      <nav class="nav flex-column px-3">
+        <a href="#beranda" class="nav-link text-white active">Beranda</a>
+        <a href="#biodata" class="nav-link text-white">Biodata</a>
+        <a href="#pendidikan" class="nav-link text-white">Pendidikan</a>
+        <a href="#matkul" class="nav-link text-white">Mata Kuliah</a>
+        <a href="#hobi" class="nav-link text-white">Hobi</a>
+        <a href="#kontak" class="nav-link text-white">Kontak</a>
+      </nav>
+    </aside>
+
+    <main class="content flex-grow-1 p-4">
+      <section id="beranda" class="mb-5">
+        <div class="card hero-card shadow-sm mb-4">
+          <div class="card-body hero-body d-flex flex-column flex-lg-row align-items-center gap-4">
+            <img src="haha.jpeg" alt="Foto Profil" class="rounded-circle foto-profil shadow-sm">
+            <div>
+              <span class="badge bg-primary mb-3">Mahasiswa</span>
+              <h1 class="mb-3">Bagus Rizky Sulistyantono</h1>
+              <p class="lead text-secondary mb-3">Saya seorang mahasiswa Teknik Informatika yang antusias dalam jaringan komputer & desain user interface.</p>
+              <div class="d-flex flex-wrap gap-2">
+                <a href="#biodata" class="btn btn-outline-primary btn-sm">Lihat Biodata</a>
+                <a href="#kontak" class="btn btn-primary btn-sm">Hubungi Saya</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-md-6">
+            <div class="card shadow-sm">
+              <div class="card-header bg-white border-bottom">Tentang Saya</div>
+              <div class="card-body text-secondary">
+                <p>Saya adalah mahasiswa yang tertarik pada bidang UI/UX Design dan Jaringan Komputer. Saya senang mempelajari desain antarmuka yang mudah digunakan serta teknologi jaringan yang mendukung konektivitas dan komunikasi data.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card info-card shadow-sm">
+              <div class="card-header bg-white border-bottom">Keahlian Utama</div>
+              <div class="card-body">
+                <ul class="list-unstyled mb-0">
+                  <li class="mb-3">
+                    <h6 class="mb-1">Jaringan Komputer</h6>
+                  </li>
+                  <li class="mb-3">
+                    <h6 class="mb-1">Desain UI/UX</h6>
+                  </li>
+                  <li>
+                    <h6 class="mb-1">Pemrograman Web</h6>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="biodata" class="mb-5">
+        <div class="card shadow-sm mb-3">
+          <div class="card-header bg-primary text-white">Biodata</div>
+          <div class="card-body">
+            <p><strong>Nama:</strong> Bagus Rizky Sulistyantono</p>
+            <p><strong>Tempat, Tanggal Lahir:</strong> Salatiga, 29 April 2007</p>
+            <p><strong>Alamat:</strong> Jl. Merbabu No. 26, Kota Salatiga</p>
+            <p><strong>Email:</strong> sulistyantonobagus@gmail.com</p>
+            <p><strong>Telepon:</strong> +62895636496593</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="pendidikan" class="mb-5">
+        <div class="card shadow-sm">
+          <div class="card-header bg-white border-bottom">Pendidikan</div>
+          <div class="card-body">
+            <ul class="timeline list-unstyled mb-0">
+              <li class="timeline-item mb-4">
+                <h6>Universitas Kristen Satya Wacana</h6>
+                <p class="text-muted mb-1">2025 - Sekarang</p>
+              </li>
+              <li class="timeline-item">
+                <h6>SMK Telekomunikasi Tunas Harapan</h6>
+                <p class="text-muted mb-1">2023 - 2025</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="hobi" class="mb-5">
+        <div class="card shadow-sm">
+          <div class="card-header bg-white border-bottom">Hobi</div>
+          <div class="card-body">
+            <div class="row row-cols-1 row-cols-md-3 g-3">
+              <div class="col"><div class="hobby-card p-3"><i class="bi bi-music-note-beamed display-6 text-primary"></i><h6 class="mt-3">Gitar</h6></div></div>
+              <div class="col"><div class="hobby-card p-3"><i class="bi bi-camera display-6 text-primary"></i><h6 class="mt-3">Fotografi</h6></div></div>
+              <div class="col"><div class="hobby-card p-3"><i class="bi bi-globe2 display-6 text-primary"></i><h6 class="mt-3">Travel</h6></div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="kontak" class="mb-5">
+        <div class="card shadow-sm">
+          <div class="card-header bg-primary text-white">Kontak</div>
+          <div class="card-body">
+            <div class="row row-cols-1 row-cols-md-2 gy-3">
+              <div class="col"><div class="contact-card p-3"><i class="bi bi-envelope-fill text-primary"></i><h6 class="mt-3">Email</h6><p class="text-muted mb-0">sulistyantonobagus@gmail.com</p></div></div>
+              <div class="col"><div class="contact-card p-3"><i class="bi bi-telephone-fill text-primary"></i><h6 class="mt-3">Telepon</h6><p class="text-muted mb-0">+62895636496593</p></div></div>
+              <div class="col"><div class="contact-card p-3"><i class="bi bi-instagram text-primary"></i><h6 class="mt-3">Instagram</h6><p class="text-muted mb-0">@Rizky__ss</p></div></div>
+              <div class="col"><div class="contact-card p-3"><i class="bi bi-github text-primary"></i><h6 class="mt-3">GitHub</h6><p class="text-muted mb-0">github.com/Neon185</p></div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="text-center text-muted small py-3">© 2026 Biografi Bagus Rizky Sulistyantono. Seluruh informasi disusun untuk tujuan edukasi dan referensi.</footer>
+    </main>
+  </div>
+</body>
+</html>
